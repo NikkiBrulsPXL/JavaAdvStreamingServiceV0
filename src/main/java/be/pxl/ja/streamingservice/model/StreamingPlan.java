@@ -7,11 +7,11 @@ public enum StreamingPlan {
     STANDARD(2, BigDecimal.valueOf(11.99)),
     PREMIUM(4, BigDecimal.valueOf(15.99));
 
-    private int numberOfScreens;
+    private int numberOfProfiles;
     private BigDecimal price;
 
-    StreamingPlan(int numberOfScreens, BigDecimal price) {
-        this.numberOfScreens = numberOfScreens;
+    StreamingPlan(int numberOfProfiles, BigDecimal price) {
+        this.numberOfProfiles = numberOfProfiles;
         this.price = price;
     }
 }
